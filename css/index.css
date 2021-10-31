@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Mukta:wght@400;700&display=swap');
+
+:root {
+    --main-color: black;
+    font-family: 'Mukta', sans-serif;
+}
+
+.header-nav .logo {
+    font-family: 'Krona One', sans-serif;
+    font-size:3.5rem;
+    text-align: center;
+}
+
+.header-nav .menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.header-nav .menu-items a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color);
+    padding: 5px;
+    border: 1px solid transparent;
+}
+
+.header-nav .menu-items a:hover {
+    border: 1px solid var(--main-color);
+}
+
+@media (min-width: 769px) {
+    .header-nav {
+        display: flex;
+        align-items: center;
+    }
+}
