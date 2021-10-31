@@ -5,9 +5,14 @@
     font-family: 'Mukta', sans-serif;
 }
 
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
 .header-nav .logo {
     font-family: 'Krona One', sans-serif;
-    font-size:3.5rem;
+    font-size: 3.5rem;
     text-align: center;
 }
 
@@ -34,4 +39,8 @@
         display: flex;
         align-items: center;
     }
+}
+
+.header-nav .banner {
+    background-image: url();
 }
